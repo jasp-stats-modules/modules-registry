@@ -47,6 +47,18 @@ jobs:
             name=$(yq -r '.name' "$file")
             echo "Found: name=$name, url=$url"
             # Do other checks here
+
+            # Check if module name is valid
+            if [[ ! "$name" =~ ^[a-zA-Z0-9]+$ ]]; then
+              echo "Invalid name: '$name'. It must contain only alphanumeric characters with no spaces."
+              exit 1
+            fi
+            # Check if url is a valid GitHub URL
+            if [[ ! "$url" =~ ^https://github\.com/[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+\.git$ ]]; then
+              echo "Invalid URL: '$url'. It must be a valid GitHub repository URL."
+              exit 1
+            fi
+            
             # Check if repo exists in $ORG org
             echo "Checking if https://github.com/${ORG}/${name}.git exists..."
             status=$(curl -s -o /dev/null -w "%{http_code}" \

@@ -1,0 +1,66 @@
+name: Checks on open PR
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  check-meta-files:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ORG: jasp-stats-modules
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # persist-credentials: false
+
+      - name: Install yq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y yq
+
+      - name: Read new meta files
+        id: changed-files
+        uses: masesgroup/retrieve-changed-files@v3
+
+      - name: Process files
+        run: |
+          for file in ${{ steps.changed-files.outputs.added }}; do
+            # Skip anything not matching the pattern
+            if [[ ! "$file" =~ ^modules-metadata/.*\.ya?ml$ ]]; then
+              echo "Skipping file that does not match pattern: $file"
+              continue
+            fi
+            if [ "$file" = "modules-metadata/exampleJaspModule.yaml" ]; then
+              echo "Skipping example module: $name"
+              continue
+            fi
+            echo "Processing $file"
+            url=$(yq -r '.gitUrl' "$file")
+            name=$(yq -r '.name' "$file")
+            echo "Found: name=$name, url=$url"
+            # Do other checks here
+            # Check if repo exists in $ORG org
+            echo "Checking if https://github.com/${ORG}/${name}.git exists..."
+            status=$(curl -s -o /dev/null -w "%{http_code}" \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              https://api.github.com/repos/${ORG}/${name})
+            if [ "$status" == "200" ]; then
+              echo "Repo ${ORG}/${name} already exists!!!"
+              exit 1
+            else
+              echo "$status"
+            fi
+
+            # Check if it is a valid JASP module
+            # 
+            # etc. 
+
+          done

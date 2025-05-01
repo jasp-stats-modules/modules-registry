@@ -14,15 +14,16 @@ gitUrl: "Your JASP module git repository"
 - The `process-new-meta-files` workflow will parse the `yaml` files and create forks of the remote JASP modules locally. It will also add submodules to the the `beta-modules` folder.
 
 ### Sequence diagram
+
 ```mermaid
 sequenceDiagram
     title Submitting a new Jasp Module
 
-    participant JaspTemplate as jasp-escience/jaspModuleTemplate
+    participant JaspTemplate as jasp-stats/jaspModuleTemplate
     participant UserModule as user/myJaspModule
-    participant JaspModules as jasp-escience/modules
-    participant UserModules as user/modules
-    participant JaspMyModule as jasp-escience/myJaspModule
+    participant JaspModules as jasp-stats-modules/modules-registry
+    participant UserModules as user/modules-registry
+    participant JaspMyModule as jasp-stats-modules/myJaspModule
 
     JaspTemplate->>UserModule: fork
     UserModule->>UserModule: create module
@@ -32,9 +33,9 @@ sequenceDiagram
     JaspModules->>JaspModules: trigger check workflow
     JaspModules->>JaspModules: review PR
     JaspModules->>JaspModules: merge PR
-    JaspModules->>JaspModules: manually trigger 'process_yaml_files' workflow
+    JaspModules->>JaspModules: manually trigger 'process-new-meta-files.yml' workflow
     JaspModules->>UserModule: prepare to fork locally
     UserModule->>JaspMyModule: fork
-    JaspModules->>JaspMyModule: add as submodule to /beta-modules
+    JaspModules->>JaspMyModule: add as submodule to JaspModules/beta-modules
 
 ```

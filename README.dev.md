@@ -12,3 +12,29 @@ gitUrl: "Your JASP module git repository"
 - To fork and create submodules the workflow `process-new-meta-files` should be triggered manually.
 - The `process-new-meta-files` workflow need a PAT with organization content write permissions and saved in organization secret `ORG_PAT`.
 - The `process-new-meta-files` workflow will parse the `yaml` files and create forks of the remote JASP modules locally. It will also add submodules to the the `beta-modules` folder.
+
+### Sequence diagram
+```mermaid
+sequenceDiagram
+    title Submitting a new Jasp Module
+
+    participant JaspTemplate as jasp-escience/jaspModuleTemplate
+    participant UserModule as user/myJaspModule
+    participant JaspModules as jasp-escience/modules
+    participant UserModules as user/modules
+    participant JaspMyModule as jasp-escience/myJaspModule
+
+    JaspTemplate->>UserModule: fork
+    UserModule->>UserModule: create module
+    JaspModules->>UserModules: fork
+    UserModules->>UserModules: create myJaspModule.yaml file
+    UserModules-->>JaspModules: open PR
+    JaspModules->>JaspModules: trigger check workflow
+    JaspModules->>JaspModules: review PR
+    JaspModules->>JaspModules: merge PR
+    JaspModules->>JaspModules: manually trigger 'process_yaml_files' workflow
+    JaspModules->>UserModule: prepare to fork locally
+    UserModule->>JaspMyModule: fork
+    JaspModules->>JaspMyModule: add as submodule to /beta-modules
+
+```

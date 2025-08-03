@@ -31,3 +31,6 @@
 [submodule "beta-modules/jaspCochrane"]
 	path = beta-modules/jaspCochrane
 	url = https://github.com/jasp-stats-modules/jaspCochrane.git
+[submodule "beta-modules/jaspDescriptives"]
+	path = beta-modules/jaspDescriptives
+	url = https://github.com/jasp-stats-modules/jaspDescriptives.git

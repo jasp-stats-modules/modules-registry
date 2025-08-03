@@ -43,3 +43,6 @@
 [submodule "beta-modules/jaspEsci"]
 	path = beta-modules/jaspEsci
 	url = https://github.com/jasp-stats-modules/jaspEsci.git
+[submodule "beta-modules/jaspFactor"]
+	path = beta-modules/jaspFactor
+	url = https://github.com/jasp-stats-modules/jaspFactor.git

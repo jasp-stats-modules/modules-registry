@@ -28,3 +28,6 @@
 [submodule "beta-modules/jaspCircular"]
 	path = beta-modules/jaspCircular
 	url = https://github.com/jasp-stats-modules/jaspCircular.git
+[submodule "beta-modules/jaspCochrane"]
+	path = beta-modules/jaspCochrane
+	url = https://github.com/jasp-stats-modules/jaspCochrane.git

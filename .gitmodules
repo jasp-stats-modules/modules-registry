@@ -10,3 +10,6 @@
 [submodule "beta-modules/jaspAnova"]
 	path = beta-modules/jaspAnova
 	url = https://github.com/jasp-stats-modules/jaspAnova.git
+[submodule "beta-modules/jaspAudit"]
+	path = beta-modules/jaspAudit
+	url = https://github.com/jasp-stats-modules/jaspAudit.git

@@ -22,3 +22,6 @@
 [submodule "beta-modules/jaspBfpack"]
 	path = beta-modules/jaspBfpack
 	url = https://github.com/jasp-stats-modules/jaspBfpack.git
+[submodule "beta-modules/jaspBsts"]
+	path = beta-modules/jaspBsts
+	url = https://github.com/jasp-stats-modules/jaspBsts.git

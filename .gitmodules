@@ -46,3 +46,6 @@
 [submodule "beta-modules/jaspFactor"]
 	path = beta-modules/jaspFactor
 	url = https://github.com/jasp-stats-modules/jaspFactor.git
+[submodule "beta-modules/jaspFrequencies"]
+	path = beta-modules/jaspFrequencies
+	url = https://github.com/jasp-stats-modules/jaspFrequencies.git

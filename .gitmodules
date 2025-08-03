@@ -97,3 +97,6 @@
 [submodule "beta-modules/jaspSummaryStatistics"]
 	path = beta-modules/jaspSummaryStatistics
 	url = https://github.com/jasp-stats-modules/jaspSummaryStatistics.git
+[submodule "beta-modules/jaspSurvival"]
+	path = beta-modules/jaspSurvival
+	url = https://github.com/jasp-stats-modules/jaspSurvival.git

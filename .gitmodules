@@ -52,3 +52,6 @@
 [submodule "beta-modules/jaspJags"]
 	path = beta-modules/jaspJags
 	url = https://github.com/jasp-stats-modules/jaspJags.git
+[submodule "beta-modules/jaspLearnBayes"]
+	path = beta-modules/jaspLearnBayes
+	url = https://github.com/jasp-stats-modules/jaspLearnBayes.git

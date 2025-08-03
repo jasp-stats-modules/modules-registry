@@ -67,3 +67,6 @@
 [submodule "beta-modules/jaspMixedModels"]
 	path = beta-modules/jaspMixedModels
 	url = https://github.com/jasp-stats-modules/jaspMixedModels.git
+[submodule "beta-modules/jaspNetwork"]
+	path = beta-modules/jaspNetwork
+	url = https://github.com/jasp-stats-modules/jaspNetwork.git

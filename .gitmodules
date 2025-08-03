@@ -82,3 +82,6 @@
 [submodule "beta-modules/jaspProphet"]
 	path = beta-modules/jaspProphet
 	url = https://github.com/jasp-stats-modules/jaspProphet.git
+[submodule "beta-modules/jaspQualityControl"]
+	path = beta-modules/jaspQualityControl
+	url = https://github.com/jasp-stats-modules/jaspQualityControl.git

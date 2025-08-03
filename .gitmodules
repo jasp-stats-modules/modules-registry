@@ -13,3 +13,6 @@
 [submodule "beta-modules/jaspAudit"]
 	path = beta-modules/jaspAudit
 	url = https://github.com/jasp-stats-modules/jaspAudit.git
+[submodule "beta-modules/jaspBFF"]
+	path = beta-modules/jaspBFF
+	url = https://github.com/jasp-stats-modules/jaspBFF.git

@@ -40,3 +40,6 @@
 [submodule "beta-modules/jaspEquivalenceTTests"]
 	path = beta-modules/jaspEquivalenceTTests
 	url = https://github.com/jasp-stats-modules/jaspEquivalenceTTests.git
+[submodule "beta-modules/jaspEsci"]
+	path = beta-modules/jaspEsci
+	url = https://github.com/jasp-stats-modules/jaspEsci.git

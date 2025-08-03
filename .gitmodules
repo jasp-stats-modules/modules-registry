@@ -7,3 +7,6 @@
 [submodule "beta-modules/jaspAcceptanceSampling"]
 	path = beta-modules/jaspAcceptanceSampling
 	url = https://github.com/jasp-stats-modules/jaspAcceptanceSampling.git
+[submodule "beta-modules/jaspAnova"]
+	path = beta-modules/jaspAnova
+	url = https://github.com/jasp-stats-modules/jaspAnova.git

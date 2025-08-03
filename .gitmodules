@@ -34,3 +34,6 @@
 [submodule "beta-modules/jaspDescriptives"]
 	path = beta-modules/jaspDescriptives
 	url = https://github.com/jasp-stats-modules/jaspDescriptives.git
+[submodule "beta-modules/jaspDistributions"]
+	path = beta-modules/jaspDistributions
+	url = https://github.com/jasp-stats-modules/jaspDistributions.git

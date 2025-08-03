@@ -37,3 +37,6 @@
 [submodule "beta-modules/jaspDistributions"]
 	path = beta-modules/jaspDistributions
 	url = https://github.com/jasp-stats-modules/jaspDistributions.git
+[submodule "beta-modules/jaspEquivalenceTTests"]
+	path = beta-modules/jaspEquivalenceTTests
+	url = https://github.com/jasp-stats-modules/jaspEquivalenceTTests.git

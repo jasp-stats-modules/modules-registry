@@ -79,3 +79,6 @@
 [submodule "beta-modules/jaspProcess"]
 	path = beta-modules/jaspProcess
 	url = https://github.com/jasp-stats-modules/jaspProcess.git
+[submodule "beta-modules/jaspProphet"]
+	path = beta-modules/jaspProphet
+	url = https://github.com/jasp-stats-modules/jaspProphet.git

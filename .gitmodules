@@ -4,3 +4,6 @@
 [submodule "beta-modules/jaspKinematics"]
 	path = beta-modules/jaspKinematics
 	url = https://github.com/jasp-stats-modules/jaspKinematics.git
+[submodule "beta-modules/jaspAcceptanceSampling"]
+	path = beta-modules/jaspAcceptanceSampling
+	url = https://github.com/jasp-stats-modules/jaspAcceptanceSampling.git

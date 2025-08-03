@@ -16,3 +16,6 @@
 [submodule "beta-modules/jaspBFF"]
 	path = beta-modules/jaspBFF
 	url = https://github.com/jasp-stats-modules/jaspBFF.git
+[submodule "beta-modules/jaspBain"]
+	path = beta-modules/jaspBain
+	url = https://github.com/jasp-stats-modules/jaspBain.git

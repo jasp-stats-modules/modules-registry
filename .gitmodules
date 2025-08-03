@@ -85,3 +85,6 @@
 [submodule "beta-modules/jaspQualityControl"]
 	path = beta-modules/jaspQualityControl
 	url = https://github.com/jasp-stats-modules/jaspQualityControl.git
+[submodule "beta-modules/jaspRegression"]
+	path = beta-modules/jaspRegression
+	url = https://github.com/jasp-stats-modules/jaspRegression.git

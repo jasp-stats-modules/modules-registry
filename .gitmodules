@@ -103,3 +103,6 @@
 [submodule "beta-modules/jaspTTests"]
 	path = beta-modules/jaspTTests
 	url = https://github.com/jasp-stats-modules/jaspTTests.git
+[submodule "beta-modules/jaspTestModule"]
+	path = beta-modules/jaspTestModule
+	url = https://github.com/jasp-stats-modules/jaspTestModule.git

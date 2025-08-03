@@ -91,3 +91,6 @@
 [submodule "beta-modules/jaspReliability"]
 	path = beta-modules/jaspReliability
 	url = https://github.com/jasp-stats-modules/jaspReliability.git
+[submodule "beta-modules/jaspSem"]
+	path = beta-modules/jaspSem
+	url = https://github.com/jasp-stats-modules/jaspSem.git

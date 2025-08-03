@@ -106,3 +106,6 @@
 [submodule "beta-modules/jaspTestModule"]
 	path = beta-modules/jaspTestModule
 	url = https://github.com/jasp-stats-modules/jaspTestModule.git
+[submodule "beta-modules/jaspVisualModeling"]
+	path = beta-modules/jaspVisualModeling
+	url = https://github.com/jasp-stats-modules/jaspVisualModeling.git

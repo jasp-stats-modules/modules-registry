@@ -2,110 +2,110 @@
 	path = beta-modules/recapJaspModule
 	url = https://github.com/jasp-stats-modules/recapJaspModule.git
 [submodule "beta-modules/jaspKinematics"]
-	path = beta-modules/jaspKinematics
+	path = jasp-modules/jaspKinematics
 	url = https://github.com/jasp-stats-modules/jaspKinematics.git
 [submodule "beta-modules/jaspAcceptanceSampling"]
-	path = beta-modules/jaspAcceptanceSampling
+	path = jasp-modules/jaspAcceptanceSampling
 	url = https://github.com/jasp-stats-modules/jaspAcceptanceSampling.git
 [submodule "beta-modules/jaspAnova"]
-	path = beta-modules/jaspAnova
+	path = core-modules/jaspAnova
 	url = https://github.com/jasp-stats-modules/jaspAnova.git
 [submodule "beta-modules/jaspAudit"]
-	path = beta-modules/jaspAudit
+	path = jasp-modules/jaspAudit
 	url = https://github.com/jasp-stats-modules/jaspAudit.git
 [submodule "beta-modules/jaspBFF"]
-	path = beta-modules/jaspBFF
+	path = jasp-modules/jaspBFF
 	url = https://github.com/jasp-stats-modules/jaspBFF.git
 [submodule "beta-modules/jaspBain"]
-	path = beta-modules/jaspBain
+	path = jasp-modules/jaspBain
 	url = https://github.com/jasp-stats-modules/jaspBain.git
 [submodule "beta-modules/jaspBfpack"]
-	path = beta-modules/jaspBfpack
+	path = jasp-modules/jaspBfpack
 	url = https://github.com/jasp-stats-modules/jaspBfpack.git
 [submodule "beta-modules/jaspBsts"]
-	path = beta-modules/jaspBsts
+	path = jasp-modules/jaspBsts
 	url = https://github.com/jasp-stats-modules/jaspBsts.git
 [submodule "beta-modules/jaspCircular"]
-	path = beta-modules/jaspCircular
+	path = jasp-modules/jaspCircular
 	url = https://github.com/jasp-stats-modules/jaspCircular.git
 [submodule "beta-modules/jaspCochrane"]
-	path = beta-modules/jaspCochrane
+	path = jasp-modules/jaspCochrane
 	url = https://github.com/jasp-stats-modules/jaspCochrane.git
 [submodule "beta-modules/jaspDescriptives"]
-	path = beta-modules/jaspDescriptives
+	path = core-modules/jaspDescriptives
 	url = https://github.com/jasp-stats-modules/jaspDescriptives.git
 [submodule "beta-modules/jaspDistributions"]
-	path = beta-modules/jaspDistributions
+	path = jasp-modules/jaspDistributions
 	url = https://github.com/jasp-stats-modules/jaspDistributions.git
 [submodule "beta-modules/jaspEquivalenceTTests"]
-	path = beta-modules/jaspEquivalenceTTests
+	path = jasp-modules/jaspEquivalenceTTests
 	url = https://github.com/jasp-stats-modules/jaspEquivalenceTTests.git
 [submodule "beta-modules/jaspEsci"]
-	path = beta-modules/jaspEsci
+	path = jasp-modules/jaspEsci
 	url = https://github.com/jasp-stats-modules/jaspEsci.git
 [submodule "beta-modules/jaspFactor"]
-	path = beta-modules/jaspFactor
+	path = core-modules/jaspFactor
 	url = https://github.com/jasp-stats-modules/jaspFactor.git
 [submodule "beta-modules/jaspFrequencies"]
-	path = beta-modules/jaspFrequencies
+	path = core-modules/jaspFrequencies
 	url = https://github.com/jasp-stats-modules/jaspFrequencies.git
 [submodule "beta-modules/jaspJags"]
-	path = beta-modules/jaspJags
+	path = jasp-modules/jaspJags
 	url = https://github.com/jasp-stats-modules/jaspJags.git
 [submodule "beta-modules/jaspLearnBayes"]
-	path = beta-modules/jaspLearnBayes
+	path = jasp-modules/jaspLearnBayes
 	url = https://github.com/jasp-stats-modules/jaspLearnBayes.git
 [submodule "beta-modules/jaspLearnStats"]
-	path = beta-modules/jaspLearnStats
+	path = jasp-modules/jaspLearnStats
 	url = https://github.com/jasp-stats-modules/jaspLearnStats.git
 [submodule "beta-modules/jaspMachineLearning"]
-	path = beta-modules/jaspMachineLearning
+	path = jasp-modules/jaspMachineLearning
 	url = https://github.com/jasp-stats-modules/jaspMachineLearning.git
 [submodule "beta-modules/jaspMetaAnalysis"]
-	path = beta-modules/jaspMetaAnalysis
+	path = jasp-modules/jaspMetaAnalysis
 	url = https://github.com/jasp-stats-modules/jaspMetaAnalysis.git
 [submodule "beta-modules/jaspMixedModels"]
-	path = beta-modules/jaspMixedModels
+	path = core-modules/jaspMixedModels
 	url = https://github.com/jasp-stats-modules/jaspMixedModels.git
 [submodule "beta-modules/jaspNetwork"]
-	path = beta-modules/jaspNetwork
+	path = jasp-modules/jaspNetwork
 	url = https://github.com/jasp-stats-modules/jaspNetwork.git
 [submodule "beta-modules/jaspPower"]
-	path = beta-modules/jaspPower
+	path = jasp-modules/jaspPower
 	url = https://github.com/jasp-stats-modules/jaspPower.git
 [submodule "beta-modules/jaspPredictiveAnalytics"]
-	path = beta-modules/jaspPredictiveAnalytics
+	path = jasp-modules/jaspPredictiveAnalytics
 	url = https://github.com/jasp-stats-modules/jaspPredictiveAnalytics.git
 [submodule "beta-modules/jaspProcess"]
-	path = beta-modules/jaspProcess
+	path = jasp-modules/jaspProcess
 	url = https://github.com/jasp-stats-modules/jaspProcess.git
 [submodule "beta-modules/jaspProphet"]
-	path = beta-modules/jaspProphet
+	path = jasp-modules/jaspProphet
 	url = https://github.com/jasp-stats-modules/jaspProphet.git
 [submodule "beta-modules/jaspQualityControl"]
-	path = beta-modules/jaspQualityControl
+	path = jasp-modules/jaspQualityControl
 	url = https://github.com/jasp-stats-modules/jaspQualityControl.git
 [submodule "beta-modules/jaspRegression"]
-	path = beta-modules/jaspRegression
+	path = core-modules/jaspRegression
 	url = https://github.com/jasp-stats-modules/jaspRegression.git
 [submodule "beta-modules/jaspReliability"]
-	path = beta-modules/jaspReliability
+	path = jasp-modules/jaspReliability
 	url = https://github.com/jasp-stats-modules/jaspReliability.git
 [submodule "beta-modules/jaspSem"]
-	path = beta-modules/jaspSem
+	path = jasp-modules/jaspSem
 	url = https://github.com/jasp-stats-modules/jaspSem.git
 [submodule "beta-modules/jaspSummaryStatistics"]
-	path = beta-modules/jaspSummaryStatistics
+	path = jasp-modules/jaspSummaryStatistics
 	url = https://github.com/jasp-stats-modules/jaspSummaryStatistics.git
 [submodule "beta-modules/jaspSurvival"]
-	path = beta-modules/jaspSurvival
+	path = jasp-modules/jaspSurvival
 	url = https://github.com/jasp-stats-modules/jaspSurvival.git
 [submodule "beta-modules/jaspTTests"]
-	path = beta-modules/jaspTTests
+	path = core-modules/jaspTTests
 	url = https://github.com/jasp-stats-modules/jaspTTests.git
 [submodule "beta-modules/jaspTestModule"]
 	path = beta-modules/jaspTestModule
 	url = https://github.com/jasp-stats-modules/jaspTestModule.git
 [submodule "beta-modules/jaspVisualModeling"]
-	path = beta-modules/jaspVisualModeling
+	path = jasp-modules/jaspVisualModeling
 	url = https://github.com/jasp-stats-modules/jaspVisualModeling.git

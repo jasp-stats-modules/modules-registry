@@ -1,0 +1,49 @@
+name: Update Submodules and Create PR
+
+on:
+  push:
+    branches:
+      - main  # Trigger on changes to the main branch (you can change this to your preferred branch)
+
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        submodules: 'true'  # Checkout submodules as well
+
+    - name: Set up Git
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "github-actions@github.com"
+
+    - name: Update submodules
+      run: |
+        # Update all submodules to the latest commit on their respective branches
+        git submodule update --remote
+
+    - name: Commit submodule updates
+      run: |
+        git add .
+        git commit -m "Update submodules to latest commit" || echo "No changes to commit"
+
+    - name: Push changes
+      run: |
+        git push origin HEAD:refs/heads/submodule-update-branch || echo "No changes to push"
+
+    - name: Create Pull Request for Submodule Update
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: |
+
+        # Create a new branch for the PR (use `submodule-update-branch` or customize it)
+        git checkout -b submodule-update-branch
+
+        # Push the branch with the submodule update commits
+        git push origin submodule-update-branch
+
+        # Create a pull request using GitHub CLI
+        gh pr create --repo ${{ github.repository }} --base main --head submodule-update-branch --title "Update Modules" --body "Update all Modules"

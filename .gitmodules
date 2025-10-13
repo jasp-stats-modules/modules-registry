@@ -1,9 +1,6 @@
 [submodule "beta-modules/recapJaspModule"]
 	path = beta-modules/recapJaspModule
 	url = https://github.com/jasp-stats-modules/recapJaspModule.git
-[submodule "beta-modules/jaspKinematics"]
-	path = jasp-modules/jaspKinematics
-	url = https://github.com/jasp-stats-modules/jaspKinematics.git
 [submodule "beta-modules/jaspAcceptanceSampling"]
 	path = jasp-modules/jaspAcceptanceSampling
 	url = https://github.com/jasp-stats-modules/jaspAcceptanceSampling.git

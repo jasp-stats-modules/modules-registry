@@ -37,7 +37,7 @@ jobs:
 
     - name: Push changes
       run: |
-        git push origin HEAD:refs/heads/submodule-update-branch || echo "No changes to push"
+        git push -f origin HEAD:refs/heads/submodule-update-branch || echo "No changes to push"
 
     - name: Create Pull Request for Submodule Update
       env:

@@ -1,9 +1,11 @@
 name: Update Submodules and Create PR
 
 on:
-  push:
-    branches:
-      - main  # Trigger on changes to the main branch (you can change this to your preferred branch)
+  workflow_dispatch:
+  # Scheduled trigger to run weekly at 00:00 UTC on Mondays
+  schedule:
+    - cron: '0 0 * * 1'  # This will run every Monday at midnight UTC
+  
 
 jobs:
   update-submodules:

@@ -8,7 +8,7 @@ This repository is intended to add new third party JASP modules.
 - add a new `yaml` file in `modules-metadata` folder with the following structure:
 
 ```yaml
-name: "ModuleName"
+name: "ModuleName" 
 gitUrl: "Your JASP module git repository"
 ```
 

@@ -53,4 +53,4 @@ jobs:
         git push origin submodule-update-branch
 
         # Create a pull request using GitHub CLI
-        gh pr create --repo ${{ github.repository }} --base main --head submodule-update-branch --title "Update Modules" --body "Update all Modules"
+        gh pr create --repo ${{ github.repository }} --base beta --head submodule-update-branch --title "Update Modules" --body "Update all Modules"

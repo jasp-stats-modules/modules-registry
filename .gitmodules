@@ -109,3 +109,9 @@
 [submodule "beta-modules/jaspDyads"]
 	path = beta-modules/jaspDyads
 	url = https://github.com/jasp-stats-modules/jaspDyads.git
+[submodule "jasp-modules/jaspTimeSeries"]
+	path = jasp-modules/jaspTimeSeries
+	url = https://github.com/jasp-stats-modules/jaspTimeSeries.git
+[submodule "jasp-modules/jaspRobustTTests"]
+	path = jasp-modules/jaspRobustTTests
+	url = https://github.com/jasp-stats-modules/jaspRobustTTests.git

@@ -115,6 +115,6 @@
 [submodule "jasp-modules/jaspRobustTTests"]
 	path = jasp-modules/jaspRobustTTests
 	url = https://github.com/jasp-stats-modules/jaspRobustTTests.git
-[submodule "user-submitted-modules/jaspDyads"]
-	path = user-submitted-modules/jaspDyads
+[submodule "beta-modules/jaspDyads"]
+	path = beta-modules/jaspDyads
 	url = https://github.com/jasp-stats-modules/jaspDyads.git

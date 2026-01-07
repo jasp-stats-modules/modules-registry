@@ -103,9 +103,6 @@
 [submodule "beta-modules/jaspVisualModeling"]
 	path = jasp-modules/jaspVisualModeling
 	url = https://github.com/jasp-stats-modules/jaspVisualModeling.git
-[submodule "beta-modules/jaspRem"]
-	path = beta-modules/jaspRem
-	url = https://github.com/jasp-stats-modules/jaspRem.git
 [submodule "jasp-modules/jaspTimeSeries"]
 	path = jasp-modules/jaspTimeSeries
 	url = https://github.com/jasp-stats-modules/jaspTimeSeries.git

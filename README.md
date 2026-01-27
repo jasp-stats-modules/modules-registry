@@ -3,7 +3,7 @@
 This repository is intended to add new third party JASP modules.
 
 ## How to add a new module
-
+ 
 - fork this repository
 - add a new `yaml` file in `modules-metadata` folder with the following structure:
 

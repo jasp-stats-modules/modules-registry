@@ -112,6 +112,6 @@
 [submodule "beta-modules/jaspDyads"]
 	path = Community/jaspDyads
 	url = https://github.com/jasp-stats-modules/jaspDyads.git
-[submodule "Community/jasp-synthetic-data"]
-	path = Community/jasp-synthetic-data
-	url = https://github.com/jasp-stats-modules/jasp-synthetic-data.git
+[submodule "Community/jaspSyntheticData"]
+	path = Community/jaspSyntheticData
+	url = https://github.com/jasp-stats-modules/jaspSyntheticData.git

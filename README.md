@@ -3,7 +3,7 @@
 This repository is intended to add new third party JASP modules.
 If anything is unclear just send us a message on our mattermost server or by making an issue [here](https://github.com/jasp-stats/jasp-issues/issues)
 
-## How to add a new module
+# How to add a new module
 
 ### Option 1
 Send us message or by making an issue [here](https://github.com/jasp-stats/jasp-issues/issues), we love to be in contact and help you out!

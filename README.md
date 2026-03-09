@@ -44,7 +44,7 @@ Because you are sending changes from your repository to our fork, you need to us
 4. Set up the dropdowns exactly like this:
    * **base repository:** `jasp-stats-modules/[Your-Module-Name]` (Our fork)
    * **base:** `master` or `main` (Our default branch)
-   * **head repository:** `jasp-stats-modules/[Your-Module-Name]` (Your original repository)
+   * **head repository:** `[Your-User-Name]/[Your-Module-Name]` (Your original repository)
    * **compare:** `your-update-branch` (The branch with your new changes)
 5. Click **Create pull request**.
 
@@ -55,7 +55,7 @@ Once your PR is open on our fork, our team will be notified.
 * Once approved, we will merge the PR into our fork. 
 
 ### 4. Automated Sync
-You're done! Once your code is merged into our fork, our automated systems will detect the update and sync it into the main application for the next release.
+You're done! Once your code is merged into our fork, our automated systems will detect the update and sync so it may build a beta release
 
 ---
 *If you run into any permission issues or have questions about the review process, please reach out to us!*

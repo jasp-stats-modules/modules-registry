@@ -115,3 +115,6 @@
 [submodule "Community/jaspSyntheticData"]
 	path = Community/jaspSyntheticData
 	url = https://github.com/jasp-stats-modules/jaspSyntheticData.git
+[submodule "Community/jaspKinematics"]
+	path = Community/jaspKinematics
+	url = https://github.com/jasp-stats-modules/jaspKinematics.git

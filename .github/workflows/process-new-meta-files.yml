@@ -82,8 +82,8 @@ jobs:
             sleep 5
             # Add as submodule
             echo "Adding submodule: beta-modules/$name"
-            git submodule add https://github.com/${ORG}/${name}.git beta-modules/$name || echo "Submodule already exists or failed"
-            git add beta-modules/${name}
-            git commit -m "Added ${name} as a submodule under beta-modules/"
-            git push origin main
+            git submodule add https://github.com/${ORG}/${name}.git Community/$name || echo "Submodule already exists or failed"
+            git add Community/${name}
+            git commit -m "Added ${name} as a submodule under Community/"
+            git push origin beta
           done

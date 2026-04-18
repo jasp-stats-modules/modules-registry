@@ -118,3 +118,6 @@
 [submodule "Community/jaspKinematics"]
 	path = Community/jaspKinematics
 	url = https://github.com/jasp-stats-modules/jaspKinematics.git
+[submodule "Community/jaspPropensityScoreMethods"]
+	path = Community/jaspPropensityScoreMethods
+	url = https://github.com/jasp-stats-modules/jaspPropensityScoreMethods.git

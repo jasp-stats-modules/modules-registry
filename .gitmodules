@@ -121,3 +121,6 @@
 [submodule "Community/jaspPropensityScoreMethods"]
 	path = Community/jaspPropensityScoreMethods
 	url = https://github.com/jasp-stats-modules/jaspPropensityScoreMethods.git
+[submodule "Community/jaspBreuschPagan"]
+	path = Community/jaspBreuschPagan
+	url = https://github.com/jasp-stats-modules/jaspBreuschPagan.git

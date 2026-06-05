@@ -124,3 +124,6 @@
 [submodule "Community/jaspBreuschPagan"]
 	path = Community/jaspBreuschPagan
 	url = https://github.com/jasp-stats-modules/jaspBreuschPagan.git
+[submodule "Community/jaspRobust"]
+	path = Community/jaspRobust
+	url = https://github.com/jasp-stats-modules/jaspRobust.git

@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Runs at minute 0 past every 2nd hour
-    - cron: '0 */2 * * *'
+    - cron: '0 */10 * * *'
 
 jobs:
   update-submodules:

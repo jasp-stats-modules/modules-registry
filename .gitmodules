@@ -127,3 +127,6 @@
 [submodule "Community/jaspRobust"]
 	path = Official/jaspRobust
 	url = https://github.com/jasp-stats-modules/jaspRobust.git
+[submodule "Community/jaspIRT"]
+	path = Community/jaspIRT
+	url = https://github.com/jasp-stats-modules/jaspIRT.git

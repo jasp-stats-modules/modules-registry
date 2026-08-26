@@ -133,3 +133,6 @@
 [submodule "Community/jaspBlinding"]
 	path = Community/jaspBlinding
 	url = https://github.com/jasp-stats-modules/jaspBlinding.git
+[submodule "Community/jaspClassicalTests"]
+	path = Community/jaspClassicalTests
+	url = https://github.com/jasp-stats-modules/jaspClassicalTests.git

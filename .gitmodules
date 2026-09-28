@@ -136,3 +136,6 @@
 [submodule "Official/jaspClassicalTests"]
 	path = Official/jaspClassicalTests
 	url = https://github.com/jasp-stats-modules/jaspClassicalTests.git
+[submodule "Community/jaspBayesianQualityControl"]
+	path = Community/jaspBayesianQualityControl
+	url = https://github.com/jasp-stats-modules/jaspBayesianQualityControl.git

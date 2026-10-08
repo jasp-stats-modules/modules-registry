@@ -139,3 +139,6 @@
 [submodule "Community/jaspBayesianQualityControl"]
 	path = Community/jaspBayesianQualityControl
 	url = https://github.com/jasp-stats-modules/jaspBayesianQualityControl.git
+[submodule "Community/jaspLearnN1"]
+	path = Community/jaspLearnN1
+	url = https://github.com/jasp-stats-modules/jaspLearnN1.git

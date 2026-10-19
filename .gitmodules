@@ -142,6 +142,6 @@
 [submodule "Community/jaspLearnN1"]
 	path = Community/jaspLearnN1
 	url = https://github.com/jasp-stats-modules/jaspLearnN1.git
-[submodule "Community/GCEstim-JASP"]
-	path = Community/GCEstim-JASP
-	url = https://github.com/jasp-stats-modules/GCEstim-JASP.git
+[submodule "Community/jaspGCEstim"]
+	path = Community/jaspGCEstim
+	url = https://github.com/jasp-stats-modules/jaspGCEstim.git
